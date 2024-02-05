@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#container
+{
+    float: right;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    
+   
+}
+
+#box-right{
+    float:left;
+    width: 100%;
+    background: pink;
+    
+}
+
+#box-left{
+float: right;
+background:black;
+width: 100%;
+color: pink;
+
+
+}
+
+#Photo-profil{
+    float: left;
+    width: 100%;
+
+}
+#P{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50%;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+span{
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+
+#copy-right{
+    width: 100%;
+    background: gray;
+    display: flex;
+    text-align: center;
+}
